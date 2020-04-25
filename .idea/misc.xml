@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/register/pom.xml" />
+        <option value="$PROJECT_DIR$/service01/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer01/pom.xml" />
+        <option value="$PROJECT_DIR$/service02/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer02/pom.xml" />
+        <option value="$PROJECT_DIR$/nettydemo/pom.xml" />
+        <option value="$PROJECT_DIR$/rediscluster/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceflux/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/kafkademo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

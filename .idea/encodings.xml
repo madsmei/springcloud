@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafkademo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nettydemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rediscluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serviceflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboottest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeepercustom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.abc.dao.YyuserMapper" >
+  <resultMap id="BaseResultMap" type="com.abc.entity.Yyuser" >
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="mobile" property="mobile" jdbcType="VARCHAR" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="cardid" property="cardid" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="cardid1" property="cardid1" jdbcType="VARCHAR" />
+    <result column="jwt" property="jwt" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insert" parameterType="com.abc.entity.Yyuser" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into yyuser (mobile, username, `password`, 
+      `name`, cardid, `status`, 
+      `uid`, `type`, cardid1, 
+      jwt)
+    values (#{mobile,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{name,jdbcType=VARCHAR}, #{cardid,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, 
+      #{uid,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER}, #{cardid1,jdbcType=VARCHAR}, 
+      #{jwt,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, mobile, username, `password`, `name`, cardid, `status`, `uid`, `type`, 
+    cardid1, jwt
+    from yyuser limit 10
+  </select>
+
+  <select id="selectById" resultType="com.abc.entity.Yyuser" parameterType="Long">
+   select * from yyuser where id=#{id}
+  </select>
+</mapper>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafkademo" />
+        <module name="serviceflux" />
+        <module name="EurekaServer" />
+        <module name="nettydemo" />
+        <module name="service01" />
+        <module name="service02" />
+        <module name="consumer02" />
+        <module name="consumer01" />
+        <module name="rediscluster" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway-zuul" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="sleuth-server" target="1.8" />
+      <module name="socketdemo" target="1.8" />
+      <module name="springboottest" target="1.8" />
+      <module name="zookeepercustom" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
+      <module name="consumer01" options="-parameters" />
+      <module name="consumer02" options="-parameters" />
+      <module name="gateway-zuul" options="-parameters" />
+      <module name="kafka" options="-parameters" />
+      <module name="kafkademo" options="-parameters" />
+      <module name="nettydemo" options="-parameters" />
+      <module name="rediscluster" options="-parameters" />
+      <module name="service01" options="-parameters" />
+      <module name="service02" options="-parameters" />
+      <module name="serviceflux" options="-parameters" />
+      <module name="sleuth-server" options="-parameters" />
+      <module name="socketdemo" options="-parameters" />
+      <module name="springboottest" options="-parameters" />
+      <module name="springcloud" options="" />
+      <module name="zookeepercustom" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

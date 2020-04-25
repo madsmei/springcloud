@@ -1,0 +1,9 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: service-ribbo
+
+instance:
+  status-page-url-path: /info
+  health-check-url-path: /health
